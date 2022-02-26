@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+    color: white;
+    background-color: #000;
+    background-color: #3c718d;
+    background-color: #3e4448;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23000000' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.conteiner {
+
+    width: 90%;
+    margin: auto;
+
+}
+
+/* Navigation*/
+
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav_brand {
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50px;
+}
+
+/*Nav right*/
+
+.nav_menu_right {
+
+    margin-right: 20px;
+}
+
+/* nav left*/
+
+.nav_main ul {
+    
+    display: flex;
+
+}
+
+.nav_main ul li {
+   
+    padding: 10px;
+}
+
+.nav_main ul li a {
+    padding: 4px;
+}
+
+.nav_main ul li a:hover {
+
+    color: #3c718d;
+}
+
+.nav_main ul.nav_menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* Show case*/ 
+.show_case {
+
+    width: 100%;
+    height: 550px;
+    background: url('./images/gio-bartlett-gVF2n2ayrUU-unsplash.jpg') no-repeat center center/cover;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #ffff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    opacity: .6;
+}
+
+.show_case h2, 
+.show_case p {
+    margin-bottom: 10px;
+}
+
+/* news cards*/
+
+
+.new_cards {
+    
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0;
+}
+
+.d {
+    background: url('./images/img1.jpg')no-repeat center center/cover; 
+    height: 350px;
+    width: auto;
+
+}
+
+.imagesN{
+    background: url('./images/img2.jpg')no-repeat center center/cover ;
+}
+
+.new_cards img {
+    background-repeat: no-repeat center center/cover;
+    width: 100%;
+    height: 200px;
+}
+
+.new_cards h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.new_cards a {
+    padding: 10px 0;
+    color:  #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.new_cards a:hover{
+    text-decoration: underline;
+}
+
+
+/*cards banners 1*/
+
+.cards_banner1 {
+    width: 100%;
+    height: 350px;
+    background: url('./images/img2.jpg') no-repeat center center/cover;
+    margin-bottom: 40px;
+}
+
+.cards_banner1 .content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+.cards_banner1 p, .cards_banner1 h2{
+    margin: 10px 0 20px 0;
+}
+
+/* cards banner2*/
+
+.cards_banner2 {
+    background: url('./images/img3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+}
+
+.cards_banner2 .content {
+    width: 50%;
+    padding: 90px 0 0 30px;
+    color: white;
+}
+
+/* social*/
+
+.social {
+    margin: 50px;
+}
+
+.social p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    margin: 0 30px;
+}
+
+.links a i{
+
+    font-size: 3rem;
+}
